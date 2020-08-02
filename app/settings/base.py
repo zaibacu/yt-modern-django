@@ -10,10 +10,11 @@ INSTALLED_APPS = [
     "django.contrib.auth",
     "django.contrib.messages",
     "django.contrib.sessions",
-    "django.contrib.staticfiles"
+    "django.contrib.staticfiles",
     # Third Party Apps
 
     # Internal
+    "crm",
 ]
 
 MIDDLEWARE = [
