@@ -12,6 +12,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.staticfiles",
     # Third Party Apps
+    "rest_framework",
+    "rest_framework.authtoken",
 
     # Internal
     "crm",
