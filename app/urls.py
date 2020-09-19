@@ -14,5 +14,6 @@ router.register("events", EventList, basename="events")
 urlpatterns = [
     path("api/", include(router.urls)),
     path("api-auth/", include("rest_framework.urls")),
-    path("admin/", admin.site.urls)
+    path("admin/", admin.site.urls),
+    path("", include("frontend.urls"))
 ]
