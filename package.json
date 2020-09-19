@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Source code for [Youtube Series](https://www.youtube.com/watch?v=998PannJtHo&list=PL3aaklOBGuJmxk9mrsbbWd45WYFyOWfLc) (Lithuanian)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode development ./frontend/src/index.js --output ./static/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaibacu/yt-modern-django.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaibacu/yt-modern-django/issues"
+  },
+  "homepage": "https://github.com/zaibacu/yt-modern-django#readme",
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
